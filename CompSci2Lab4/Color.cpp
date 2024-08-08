@@ -48,7 +48,8 @@ ostream& operator<<(ostream& os, const Color& color)
             os << 'V';
         }
     }
-    else {
+    else 
+    {
         if (color.red == color.green) 
         {
             os << 'T';
