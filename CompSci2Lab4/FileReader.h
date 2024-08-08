@@ -6,7 +6,4 @@
 using namespace std;
 
 void readColorsFromFile(const string& filename, Picture& picture);
-class FileReader
-{
-};
 #endif

@@ -5,24 +5,29 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
 	const string filename = "picture.txt";
-	const int width = 10;
-	const int height = 10;
+	const int width = 50;
+	const int height = 20;
 
 	Picture picture(width, height);
 
-	try {
+	try 
+	{
 		readColorsFromFile(filename, picture);
 		cout << picture;
 	}
-	catch (const FileNotFoundException& e) {
+	catch (const FileNotFoundException& e) 
+	{
 		cout << e.what() << endl;
 	}
-	catch (const ColorFileFormatException& e) {
+	catch (const ColorFileFormatException& e) 
+	{
 		cout << e.what() << endl;
 	}
-	catch (const exception& e) {
+	catch (const exception& e) 
+	{
 	cout << "An unexpected error occurred: " << e.what() << endl;
 	}
 	return 0;

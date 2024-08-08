@@ -8,6 +8,9 @@ void Picture::setPixel(int x, int y, const Color& color)
     pixels[y][x] = color;
 }
 
+int Picture::getHeight() const { return height; }
+int Picture::getWidth() const { return width; }
+
 ostream& operator<<(ostream& os, const Picture& picture) 
 {
     for (const auto& row : picture.pixels) 
