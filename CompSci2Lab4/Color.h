@@ -4,7 +4,8 @@
 #include <iostream>
 using namespace std;
 
-class Color {
+class Color 
+{
 public:
     int red, green, blue;
 
