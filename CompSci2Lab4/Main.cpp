@@ -30,5 +30,11 @@ int main()
 	{
 	cout << "An unexpected error occurred: " << e.what() << endl;
 	}
+	
+	cout << endl << endl;
+	cout << "|| STAT TOOLS ADVANCED ||" << endl;
+
+
+
 	return 0;
 }
