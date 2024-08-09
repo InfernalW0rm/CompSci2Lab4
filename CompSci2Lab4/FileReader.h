@@ -1,7 +1,7 @@
 #ifndef FILEREADER_H
 #define FILEREADER_H
 #include "Picture.h"
-#include "Exceptions.cpp"
+#include "Exceptions.h"
 #include <string>
 using namespace std;
 

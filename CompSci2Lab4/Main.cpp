@@ -1,6 +1,6 @@
 #include "Picture.h"
 #include "FileReader.h"
-#include "Exceptions.cpp"
+#include "Exceptions.h"
 #include "StatTools.h"
 #include "PemdasQuizzer.h"
 #include <vector>
