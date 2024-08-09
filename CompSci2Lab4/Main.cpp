@@ -59,6 +59,12 @@ int main()
 
 	cout << endl << endl;
 	cout << "|| PEMDAS QUIZ THAT WORKS ||" << endl;
-	
+
+	int numProblems;
+	cout << "How many problems would you like to solve? " << endl;
+	cin >> numProblems;
+
+	generateProblem(numProblems);
+
 	return 0;
 }
