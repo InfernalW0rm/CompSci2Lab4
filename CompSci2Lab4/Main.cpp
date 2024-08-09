@@ -2,6 +2,7 @@
 #include "FileReader.h"
 #include "Exceptions.cpp"
 #include "StatTools.h"
+#include "PemdasQuizzer.h"
 #include <vector>
 #include <iostream>
 
@@ -58,7 +59,6 @@ int main()
 
 	cout << endl << endl;
 	cout << "|| PEMDAS QUIZ THAT WORKS ||" << endl;
-
-
+	
 	return 0;
 }
