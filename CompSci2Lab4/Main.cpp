@@ -53,6 +53,12 @@ int main()
 
 	cout << "\nBar Chart:\n";
 	StatTools<int>::BarChart(data);
-	
+
+	//Pemdas Quizzer Problem
+
+	cout << endl << endl;
+	cout << "|| PEMDAS QUIZ THAT WORKS ||" << endl;
+
+
 	return 0;
 }
