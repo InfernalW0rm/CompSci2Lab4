@@ -1,3 +1,6 @@
+//Andrew Diggs, Merek Mackenzie
+//Comp Sci 2 Lab 4
+
 #include "Picture.h"
 #include "FileReader.h"
 #include "Exceptions.h"
